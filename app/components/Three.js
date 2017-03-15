@@ -1,9 +1,7 @@
 import React from 'react';
 
-var Three = React.createClass({
+export default React.createClass({
   render: function() {
     return <h1>Three components</h1>;
   }
 })
-
-export default Three

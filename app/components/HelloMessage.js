@@ -2,7 +2,7 @@ import React from 'react';
 import Three from './Three.js';
 
 
-var HelloMessage = React.createClass({
+export default React.createClass({
 	render: function() {
 		return (
 			<div>
@@ -12,5 +12,3 @@ var HelloMessage = React.createClass({
 		);
 	}
 })
-
-export default HelloMessage
